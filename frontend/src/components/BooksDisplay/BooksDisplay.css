@@ -1,0 +1,51 @@
+.books-display-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.view-options {
+  display: flex;
+  gap: 4px;
+}
+
+.books-display-list.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+  gap: 8px; 
+}
+.books-display-list.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sort-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-options label {
+  font-size: 16px;
+  color: #333;
+}
+
+.sort-options select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.sort-options select:hover {
+  border-color: #6200ea; /* Google purple color */
+}
+
+.sort-options select:focus {
+  border-color: #6200ea; /* Google purple color */
+}

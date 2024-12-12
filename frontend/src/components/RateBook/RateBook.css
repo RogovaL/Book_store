@@ -1,0 +1,23 @@
+.rate-book {
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 30px;
+  color: lightgray;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.star.selected {
+  color: gold;
+}
+
+

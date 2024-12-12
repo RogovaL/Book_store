@@ -1,0 +1,98 @@
+.add {
+  width: 60%;
+  margin-left: max(5vw, 25px);
+  margin-top: 20px;
+  color: #6d6d6d;
+  font-size: 20px;
+}
+
+.add form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-upload img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-book-title,
+.add-book-author,
+.add-book-publishYear {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-book-title input,
+.add-book-author input,
+.add-book-publishYear input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 20px;
+}
+
+.add-category {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-category select {
+  max-width: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-price input, textarea {
+  max-width: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea{
+  width: 100%;
+  max-width: 100%;
+}
+.add-btn {
+  max-width: 120px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #444;
+}

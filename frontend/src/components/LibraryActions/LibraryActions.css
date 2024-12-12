@@ -1,0 +1,40 @@
+.library-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.library-actions.owned,
+.library-actions.read {
+    width: 100%;
+    max-width: 250px;
+    padding:  4px 0;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.library-actions.owned {
+    margin-top: 12px;
+    color: black;
+    background-color: #ddd;
+    padding: 4px;
+}
+
+.library-actions.read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.library-actions.read:hover {
+    background-color: #43a047;
+}

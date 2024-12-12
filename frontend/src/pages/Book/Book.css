@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.product-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.product-image {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-author,
+.product-category,
+.product-year,
+.product-price {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.product-description {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.product-ratings {
+  margin-top: 2rem;
+}
+
+.if-user-block {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.if-user-block .box {
+  margin-top: 2rem;
+  display: flex;
+  gap: 10px;
+}

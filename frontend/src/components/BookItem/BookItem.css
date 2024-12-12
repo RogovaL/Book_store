@@ -1,0 +1,145 @@
+.book-item {
+  width: 100%;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  margin: 2px 0;
+}
+
+.book-item.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+}
+
+.book-item.grid .btn{
+  width: 100%;
+}
+
+.book-item.column {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.book-item.column .book-item-img-container {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-item-image {
+  max-width: 180px;
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
+}
+
+.grid .book-item-image {
+  width: 100%;
+  max-width: fit-content;
+}
+
+.grid .book-item-img-container{
+  
+  height: 140px;
+  overflow: hidden;
+}
+
+.book-item-info {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 16px;
+  padding: 16px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.grid .book-item-info {
+  flex-direction: column;
+
+}
+
+.book-item-header {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.book-item-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.book-item-author {
+  font-size: 14px;
+  color: #777;
+}
+
+.book-item-desc {
+  color: #676767;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.book-item-price {
+  color: tomato;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.book-item-img-container {
+  position: relative;
+  width: 100%;
+}
+
+.book-item-img-container .add {
+  width: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fdfdfd;
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+.book-item-counter {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-item-counter img {
+  width: 28px;
+}
+
+
+.book-item-info p {
+  margin: 6px 0;
+  color: #555;
+}
